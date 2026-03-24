@@ -1,0 +1,9 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-label="Key Stone">
+  <style>
+    .stroke-elem { stroke: #111; fill: none; }
+    @media (prefers-color-scheme: dark) {
+      .stroke-elem { stroke: #fff; }
+    }
+  </style>
+  <path d="M6 28 L6 18 L16 4 L26 18 L26 28" class="stroke-elem" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
