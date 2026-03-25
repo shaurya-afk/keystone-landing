@@ -87,12 +87,24 @@ export function ColophonSection() {
         <div className="flex flex-col lg:flex-row lg:justify-between gap-16 mb-24 md:mb-32">
           {/* Header & Subheading */}
           <div ref={headerRef} className="max-w-md">
-            <h2 className="font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight mb-6">
-              AI SEO Systems
+            <h2 className="font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight mb-6 flex flex-col gap-2">
+              <span>GET YOUR SEO</span>
+              <span>GAPS MAPPED</span>
             </h2>
-            <p className="font-mono text-sm text-foreground/70 leading-relaxed">
-              We design and deploy AI-driven systems that increase organic traffic, rankings, and conversion.
+            <p className="font-mono text-sm text-foreground/70 leading-relaxed mb-8">
+              See what you&apos;re missing. We design and deploy pages that capture high-intent search traffic your competitors are taking.
             </p>
+            <div className="flex flex-col gap-4">
+              <a
+                href="mailto:shauryasha090@gmail.com"
+                className="inline-flex items-center justify-center bg-foreground text-background border border-foreground font-mono text-xs uppercase tracking-widest px-8 py-4 hover:bg-accent hover:border-accent hover:text-foreground transition-all duration-300 w-fit"
+              >
+                Find what you&apos;re missing
+              </a>
+              <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground/60">
+                Not for idea-stage projects
+              </span>
+            </div>
           </div>
 
           {/* Links Columns */}

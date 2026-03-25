@@ -9,29 +9,19 @@ gsap.registerPlugin(ScrollTrigger)
 
 const signals = [
   {
-    date: "2026.03.22",
-    title: "Automated Pipeline",
-    note: "Parse brand mentions from uploaded CSVs and compute metrics instantly.",
+    date: "STEP 01",
+    title: "Extract Queries",
+    note: "Extract real search queries from actual data to uncover exactly what your target audience is looking for.",
   },
   {
-    date: "2026.03.22",
-    title: "Brand Registry",
-    note: "Manage brands and their aliases comprehensively in one centralized place.",
+    date: "STEP 02",
+    title: "Map Content Gaps",
+    note: "Identify missing, weak, or under-optimized pages where competitors are currently capturing your traffic.",
   },
   {
-    date: "2026.03.22",
-    title: "Visibility Metrics",
-    note: "Calculate visibility and primary mention percentages for all your registered brands.",
-  },
-  {
-    date: "2026.03.22",
-    title: "Async Architecture",
-    note: "Built with FastAPI and SQLAlchemy 2.0 to deliver unparalleled performance.",
-  },
-  {
-    date: "2026.03.22",
-    title: "Dockerized Setup",
-    note: "Container-ready orchestration completely pre-configured for deployment.",
+    date: "STEP 03",
+    title: "Generate Pages",
+    note: "Deploy and continuously update high-intent, outcome-focused pages designed to rank and convert.",
   },
 ]
 
@@ -135,8 +125,8 @@ export function SignalsSection() {
 
       {/* Section header */}
       <div ref={headerRef} className="mb-16 pr-6 md:pr-12">
-        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">01 / Features</span>
-        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">KEY FEATURES</h2>
+        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">01 / Process</span>
+        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">HOW IT WORKS</h2>
       </div>
 
       {/* Horizontal scroll container */}

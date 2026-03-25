@@ -16,38 +16,29 @@ export function PrinciplesSection() {
     {
       number: "01",
       titleParts: [
-        { text: "AUTOMATED", highlight: true },
-        { text: " ANALYSIS", highlight: false },
+        { text: "YOU RANK ", highlight: false },
+        { text: "FOR", highlight: true },
       ],
-      description: "Eliminate manual tallying of brand mentions with automated NLP parsing.",
+      description: "Generic terms that bring no buyers. E.g., 'Best team management software', 'Project tools'.",
       align: "left",
     },
     {
       number: "02",
       titleParts: [
-        { text: "ACTIONABLE", highlight: true },
-        { text: " INSIGHTS", highlight: false },
+        { text: "YOU'RE ", highlight: false },
+        { text: "MISSING", highlight: true },
       ],
-      description: "Focus on primary mention rates to accurately measure brand dominance.",
+      description: "High-intent queries where competitors win. E.g., 'Jira vs Asana for agencies', 'Trello alternatives'.",
       align: "right",
     },
     {
       number: "03",
       titleParts: [
-        { text: "SCALABLE ", highlight: false },
-        { text: "ARCHITECTURE", highlight: true },
+        { text: "THE ", highlight: false },
+        { text: "OPPORTUNITY", highlight: true },
       ],
-      description: "Process massive datasets seamlessly with our async Python backend.",
+      description: "Capturing search demand from 5,000+ monthly searches with ready-to-buy intent.",
       align: "left",
-    },
-    {
-      number: "04",
-      titleParts: [
-        { text: "CLEAR ", highlight: false },
-        { text: "REPORTING", highlight: true },
-      ],
-      description: "Understand your metrics at a glance with our minimalist frontend dashboard.",
-      align: "right",
     },
   ]
 
@@ -93,8 +84,8 @@ export function PrinciplesSection() {
     <section ref={sectionRef} id="principles" className="relative py-32 pl-6 md:pl-28 pr-6 md:pr-12">
       {/* Section header */}
       <div ref={headerRef} className="mb-24">
-        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">03 / Value</span>
-        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">WHY KEY STONE</h2>
+        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">03 / Teardown</span>
+        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">LIVE GAP EXAMPLE</h2>
       </div>
 
       {/* Staggered principles */}

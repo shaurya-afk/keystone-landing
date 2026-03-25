@@ -9,40 +9,16 @@ gsap.registerPlugin(ScrollTrigger)
 
 const experiments = [
   {
-    title: "Brand Metrics",
-    medium: "Dashboard Component",
-    description: "Real-time visibility metrics for registered brands.",
-    span: "col-span-2 row-span-2",
+    title: "Missed Opportunity",
+    medium: "Before",
+    description: "Missing comparison pages, no 'X for Y' pages, and weak structured SEO failing to capture search intent.",
+    span: "col-span-2 md:col-span-2 row-span-2",
   },
   {
-    title: "Recent Runs",
-    medium: "Data Table",
-    description: "Detailed logs of parsed prompt-response interactions.",
-    span: "col-span-1 row-span-1",
-  },
-  {
-    title: "Fast Backend",
-    medium: "API",
-    description: "Asynchronous processing with FastAPI and PostgreSQL.",
-    span: "col-span-1 row-span-2",
-  },
-  {
-    title: "Registry Manager",
-    medium: "Configuration",
-    description: "Alias management and brand setup.",
-    span: "col-span-1 row-span-1",
-  },
-  {
-    title: "CSV Parsing",
-    medium: "Data Pipeline",
-    description: "Automated ingestion of raw conversational data.",
-    span: "col-span-2 row-span-1",
-  },
-  {
-    title: "Secure Display",
-    medium: "Frontend",
-    description: "Sleek dark-mode interface for actionable insights.",
-    span: "col-span-1 row-span-1",
+    title: "Traffic & Revenue",
+    medium: "After",
+    description: "Created high-intent pages (use-case, comparison, alternatives) driving improved rankings, traffic, and conversions.",
+    span: "col-span-2 md:col-span-2 row-span-2",
   },
 ]
 
@@ -98,11 +74,11 @@ export function WorkSection() {
       {/* Section header */}
       <div ref={headerRef} className="mb-16 flex items-end justify-between">
         <div>
-          <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">02 / Product</span>
-          <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">CORE MODULES</h2>
+          <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">02 / Examples</span>
+          <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">WHAT THIS LOOKS LIKE</h2>
         </div>
         <p className="hidden md:block max-w-xs font-mono text-xs text-muted-foreground text-right leading-relaxed">
-          Core features and interfaces powering the Key Stone analysis engine.
+          Transforming weak SEO structures into high-converting revenue pipelines.
         </p>
       </div>
 
